@@ -5,6 +5,7 @@ pipeline {
         DOCKER_IMAGE = "attendance-system"
         DOCKER_TAG   = "${env.BUILD_NUMBER}"
         PYTHON       = 'C:/Users/shash/AppData/Local/Programs/Python/Python313/python.exe'
+        PYTHONUTF8   = "1"
     }
 
     stages {
